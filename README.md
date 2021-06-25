@@ -6,10 +6,7 @@
 <img src="https://drive.google.com/uc?export=download&id=1ZDQcVVRJ-7yRoYiXVZnti6GwhdEzQX15">
 </p>
 
-'Woof Server' is an HTTP server written in NodeJS, **capable of providing simultaneous file download and upload functionality.**
-
-![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcaptain-woof%2Fwoof-server)
-
+'Woof Server' is an HTTP server written in NodeJS, **capable of providing simultaneous file download and upload functionality.** 🚀
 
 <p align="center">
 <img src="https://drive.google.com/uc?export=download&id=127mIT2xw9OPr01EQgpf9nZvtMqShaq8-">
@@ -19,9 +16,9 @@
 
 Since this is more of an utility, examples usage sceneraios include:
 
-- You need to set up a quick server for file transfers between 2 hosts in both directions
-- You are pentesting or playing CTFs, and you need to keep transferring files to and from the attackbox and victim machine.
-- 
+- You need to set up a quick server for file transfers between 2 hosts in both directions. 💻
+- You are pentesting or playing CTFs, and you need to keep transferring files to and from the attackbox and victim machine. 🐈
+
 ### Usage
 
 ##### Getting it
