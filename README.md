@@ -6,11 +6,7 @@
 <img src="https://drive.google.com/uc?export=download&id=1ZDQcVVRJ-7yRoYiXVZnti6GwhdEzQX15">
 </p>
 
-'Woof Server' is an HTTP server written in NodeJS, **capable of providing simultaneous file download and upload functionality.** 🚀
-
-<p align="center">
-<img src="https://drive.google.com/uc?export=download&id=127mIT2xw9OPr01EQgpf9nZvtMqShaq8-">
-</p>
+'Woof Server' is an HTTP server written in NodeJS, **capable of providing simultaneous file download and upload functionality.** 🚀🚀
 
 ### Where can I use this? 🧐
 
