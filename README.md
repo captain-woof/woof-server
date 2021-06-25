@@ -10,26 +10,26 @@
 
 ### Where can I use this? 🧐
 
-Since this is more of an utility, examples usage sceneraios include:
+Since this is more of an utility, examples usage scenarios include:
 
 - You need to set up a quick server for file transfers between 2 hosts in both directions. 💻
 - You are pentesting or playing CTFs, and you need to keep transferring files to and from the attackbox and victim machine. 😏
 
 ### Usage ⛷️
 
-##### Getting it
+##### Getting it 🚀
 ```bash
 git clone https://github.com/captain-woof/woof-server.git
 cd woof-server
 ```
 
-##### To spin up the server
+##### Spinning it up 🚀
 ```bash
 Usage: npm main.js listen-ip listen-port upload-dir download-dir
-Defaults are -> 127.0.0.1 80 ./ ./
+# Defaults are -> 127.0.0.1 80 ./ ./
 ```
 
-##### Uploads & Downloads
+##### Uploads & Downloads 🚀
 
 ```bash
 # Download
