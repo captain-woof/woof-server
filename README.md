@@ -25,7 +25,7 @@ cd woof-server
 
 ##### Spinning it up 🚀
 ```bash
-Usage: npm main.js listen-ip listen-port upload-dir download-dir
+Usage: node main.js listen-ip listen-port upload-dir download-dir
 # Defaults are -> 127.0.0.1 80 ./ ./
 ```
 
