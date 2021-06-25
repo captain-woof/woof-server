@@ -1,6 +1,6 @@
 # Woof Server
 
-### Introduction
+### Introduction 📝
 
 <p align="center">
 <img src="https://drive.google.com/uc?export=download&id=1ZDQcVVRJ-7yRoYiXVZnti6GwhdEzQX15">
@@ -12,14 +12,14 @@
 <img src="https://drive.google.com/uc?export=download&id=127mIT2xw9OPr01EQgpf9nZvtMqShaq8-">
 </p>
 
-### Where can I use this?
+### Where can I use this? 🧐
 
 Since this is more of an utility, examples usage sceneraios include:
 
 - You need to set up a quick server for file transfers between 2 hosts in both directions. 💻
-- You are pentesting or playing CTFs, and you need to keep transferring files to and from the attackbox and victim machine. 🐈
+- You are pentesting or playing CTFs, and you need to keep transferring files to and from the attackbox and victim machine. 😏
 
-### Usage
+### Usage ⛷️
 
 ##### Getting it
 ```bash
@@ -43,7 +43,7 @@ curl -O http://server-ip:port/filename # GET request
 curl -F "anything=@location/of/file" http://se rver-ip:port/ # POST request
 ```
 
-### Author
+### Author 🏃
 
 ##### CaptainWoof
 
