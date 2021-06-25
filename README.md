@@ -15,18 +15,15 @@
 <img src="https://drive.google.com/uc?export=download&id=127mIT2xw9OPr01EQgpf9nZvtMqShaq8-">
 </p>
 
-<p align="center">
 ### Where can I use this?
-</p>
 
 Since this is more of an utility, examples usage sceneraios include:
 
 - You need to set up a quick server for file transfers between 2 hosts in both directions
 - You are pentesting or playing CTFs, and you need to keep transferring files to and from the attackbox and victim machine.
-
-<p align="center">
+- 
 ### Usage
-</p>
+
 ##### Getting it
 ```bash
 git clone https://github.com/captain-woof/woof-server.git
@@ -49,9 +46,7 @@ curl -O http://server-ip:port/filename # GET request
 curl -F "anything=@location/of/file" http://se rver-ip:port/ # POST request
 ```
 
-<p align="center">
 ### Author
-</p>
 
 ##### CaptainWoof
 
