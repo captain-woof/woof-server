@@ -36,7 +36,7 @@ Usage: npm main.js listen-ip listen-port upload-dir download-dir
 curl -O http://server-ip:port/filename # GET request
 
 # Upload
-curl -F "anything=@location/of/file" http://se rver-ip:port/ # POST request
+curl -F "anything=@location/of/file" http://server-ip:port/ # POST request
 ```
 
 ### Author 🏃
