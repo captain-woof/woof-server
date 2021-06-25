@@ -1,12 +1,18 @@
 # Woof Server
 
 ### Introduction
-![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcaptain-woof%2Fwoof-server)
-<img align="center" src="https://drive.google.com/uc?export=download&id=1ZDQcVVRJ-7yRoYiXVZnti6GwhdEzQX15">
+
+<p align="center">
+<img src="https://drive.google.com/uc?export=download&id=1ZDQcVVRJ-7yRoYiXVZnti6GwhdEzQX15">
+</p>
 
 'Woof Server' is an HTTP server written in NodeJS, **capable of providing simultaneous file download and upload functionality.**
+![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcaptain-woof%2Fwoof-server)
 
-<img align="center" src="https://drive.google.com/uc?export=download&id=127mIT2xw9OPr01EQgpf9nZvtMqShaq8-">
+
+<p align="center">
+<img src="https://drive.google.com/uc?export=download&id=127mIT2xw9OPr01EQgpf9nZvtMqShaq8-">
+</p>
 
 ### Where can I use this?
 
