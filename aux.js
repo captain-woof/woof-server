@@ -11,7 +11,7 @@ exports.getCurrentDate = () => {
 
 exports.printHelp = () => {
     console.log("Usage: node main.js listen-ip listen-port upload-dir download-dir");
-    console.log("Defaults are -> 127.0.0.1 80 ./ ./");
+    console.log("Defaults are -> 0.0.0.0 80 . .");
     console.log("Written by CaptainWoof");
 }
 

@@ -17,10 +17,10 @@ app.get("/:fileToDownload",(req,res)=>{
     }else{ // Serve the file
         res.download(fileToDownloadFullPath,(err) => {
             if(err){
-                console.log(`${aux.getCurrentDate()} - ERROR while ${req.hostname} attempted to download '${fileToDownload}'`);
+                console.log(`${aux.getCurrentDate()} - ERROR while ${req.ip} attempted to download '${fileToDownload}'`);
                 res.write(`Error in retrieving ${fileToDownload} from server!\n`);
             }else{
-                console.log(`${aux.getCurrentDate()} - ${req.hostname} downloaded '${fileToDownload}'`);
+                console.log(`${aux.getCurrentDate()} - ${req.ip} downloaded '${fileToDownload}'`);
             }
             return res.end();
         })
@@ -34,10 +34,10 @@ app.post("/",(req,res) => {
     uploadForm.on("file",(formName,file) => {
         fs.rename(file.path,upload_dir+"/"+file.name,(err) => {
             if(err){
-                console.log(`${aux.getCurrentDate()} - ERROR while ${req.hostname} attempted to upload '${file.name}'`);
+                console.log(`${aux.getCurrentDate()} - ERROR while ${req.ip} attempted to upload '${file.name}'`);
                 res.write(`Error in uploading ${file.name} to server!\n`);
             }else{
-                console.log(`${aux.getCurrentDate()} - ${req.hostname} uploaded '${file.name}'`);
+                console.log(`${aux.getCurrentDate()} - ${req.ip} uploaded '${file.name}'`);
                 res.write(`'${file.name}' successfully uploaded!`);
             }
             return res.end();
@@ -54,7 +54,7 @@ if(args.includes("-h")){
     try {
         // Parse and listen
         args.reverse();
-        var host = args.pop() || "127.0.0.1";
+        var host = args.pop() || "0.0.0.0";
         var port = parseInt(args.pop()) || 80;
         var upload_dir = args.pop() || process.cwd();
         var download_dir = args.pop() || process.cwd();
