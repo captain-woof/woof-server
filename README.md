@@ -17,16 +17,15 @@ Since this is more of an utility, examples usage scenarios include:
 
 ### Usage ⛷️
 
-##### Getting it 🚀
-```bash
-git clone https://github.com/captain-woof/woof-server.git
-cd woof-server
-```
+##### Where to get it from? 🚀
+
+As of now, you'll find standalone release binaries for Windows, Linux and MacOS. Checkout **[releases](https://github.com/captain-woof/woof-server/releases)**.
 
 ##### Spinning it up 🚀
 ```bash
-Usage: node main.js listen-ip listen-port upload-dir download-dir
+Usage: ./woof-server listen-ip listen-port upload-dir download-dir
 # Defaults are -> 0.0.0.0 80 . .
+# Type "-h" for help.
 ```
 
 ##### Uploads & Downloads 🚀
